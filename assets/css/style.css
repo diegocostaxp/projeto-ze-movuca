@@ -1,6 +1,9 @@
 /* font */
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap');
 
+/* @import url('https://fonts.googleapis.com/css2?family=Tomorrow&display=swap'); */
+
+@import url('https://fonts.googleapis.com/css2?family=Original+Surfer&display=swap');
 body {
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
@@ -332,9 +335,9 @@ ul.navbar-nav {
 }
 
 .navbar-brand {
-  width: 97px;
-  background: url(../img/logo.png) left center no-repeat;
-  text-indent: -99999px;
+  font-family: 'Original Surfer', cursive;
+  color: #42bfc2 !important;
+  font-size: 2em;
 }
 
 /***** Top content *****/
